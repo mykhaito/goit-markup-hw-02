@@ -1,0 +1,226 @@
+/*нужны шрифты
+стиль для body (font-family, color та background-color)
+Пропиши CSS-правила для скидання дефолтного підкреслення для посилань та маркерів у списках.
+/* Ховер контактов */
+.address-contacts:hover, .address-contacts:focus{
+    color: #404bbf;
+}
+
+.order-section {
+    background: #2e2f42;
+}
+.order-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+/* Вид кнопки кнопки */
+.order-section > .order-button {
+/*Fles layout */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+/*Box model*/
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+/*styles*/
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+/*текст кнокпи*/
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+/*из задания*/
+    cursor: pointer;
+}
+/* Ховер кнопки */
+.order-section > .order-button:hover, .order-section > .order-button:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;
+}
+
+/* Удаление точек в списке */
+address ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Удаление подчеркивания у ссылок */
+.address-contacts {
+    text-decoration: none;
+    color: #434455;
+}
+/* С5 шрифт цвет */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+}
+
+.nav-menu-items {
+    text-decoration: none;
+    color: #434455;
+}
+
+.benefit-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.benefit-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.benefit-section{
+    width: 1128px;
+    height: 104px;
+}
+
+.benefit-list-section{
+/*Box model*/
+    width: 264px;
+    height: 104px;
+/*Flex layout*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.team-section{
+    width: 1440px;
+    height: 732px;
+}
+
+.team-card {
+/*Flex layout*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+/*Box Model*/
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+/*Styles*/
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
+
+.card-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.card-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.portfolio-section{
+    width: 1128px;
+    height: 1000px;
+}
+
+.section-h2-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio-row{
+    width: 1128px;
+    height: 420px;
+}
+
+.project-card{
+/*Box model*/
+    width: 360px;
+    height: 420px;
+/*styles*/
+    background: #fff;
+}
+
+.card-content{
+/*flex layout*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+/*box model*/
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+}
+.card-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.card-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+footer{
+    width: 1440px;
+    height: 312px;
+    background: #2e2f42;
+}
+
+.flogo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    width: 115px;
+    height: 24px;
+}
+
+.footer-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    
+}
