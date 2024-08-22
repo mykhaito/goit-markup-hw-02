@@ -6,6 +6,13 @@ body {
     background-color: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
 /*------------------------------------------------------------------------------------------------*/
 /*HEADER*/
 /*------------------------------------------------------------------------------------------------*/
@@ -126,7 +133,6 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
 }
@@ -140,7 +146,6 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
@@ -149,7 +154,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
 
