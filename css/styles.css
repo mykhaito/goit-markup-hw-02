@@ -1,75 +1,117 @@
-/*нужны шрифты
-стиль для body (font-family, color та background-color)
-Пропиши CSS-правила для скидання дефолтного підкреслення для посилань та маркерів у списках.
-/* Ховер контактов */
-.address-contacts:hover, .address-contacts:focus{
+/* GLOBAL BODY */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*HEADER*/
+/*------------------------------------------------------------------------------------------------*/
+
+/* LOGO */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-span{
+    color: #2e2f42;
+}
+
+/* MENU */
+
+.nav-menu-items {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-menu-items:hover, .nav-menu-items:focus{
     color: #404bbf;
 }
 
-.order-section {
-    background: #2e2f42;
-}
-.order-text {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-}
-/* Вид кнопки кнопки */
-.order-section > .order-button {
-/*Fles layout */
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-/*Box model*/
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-/*styles*/
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-/*текст кнокпи*/
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-/*из задания*/
-    cursor: pointer;
-}
-/* Ховер кнопки */
-.order-section > .order-button:hover, .order-section > .order-button:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #404bbf;
+/* ADDRESS */
+
+.menu-address{
+    font-style: normal;
 }
 
-/* Удаление точек в списке */
-address ul {
+.menu-address ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-/* Удаление подчеркивания у ссылок */
 .address-contacts {
     text-decoration: none;
     color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-/* С5 шрифт цвет */
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
+.address-contacts:hover, .address-contacts:focus{
+    color: #404bbf;
+}
+/*------------------------------------------------------------------------------------------------*/
+/*MAIN*/
+/*------------------------------------------------------------------------------------------------*/
+
+/* SECTION 1 */
+
+.order-section {
+    background-color: #2e2f42;
 }
 
-.nav-menu-items {
-    text-decoration: none;
-    color: #434455;
+.order-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
+
+.order-section > .order-button {
+    /*Fles layout */
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 10px;
+    /*Box model*/
+        border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
+    /*styles*/
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background-color: #4d5ae5;
+    /*текст кнокпи*/
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+    /**/
+        cursor: pointer;
+    }
+
+    .order-section > .order-button:hover, .order-section > .order-button:focus {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background-color: #404bbf;
+    }
+
+/* SECTION 2 */
 
 .benefit-paragraph {
     font-weight: 400;
@@ -104,9 +146,12 @@ body {
     gap: 8px;
 }
 
+/* SECTION 3 */
+
 .team-section{
     width: 1440px;
     height: 732px;
+    background-color: #F4F4FD;
 }
 
 .team-card {
@@ -123,7 +168,7 @@ body {
     height: 380px;
 /*Styles*/
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
+    background-color: #fff;
 }
 
 .card-header {
@@ -143,6 +188,9 @@ body {
     text-align: center;
     color: #434455;
 }
+
+/* SECTION 4 */
+
 .portfolio-section{
     width: 1128px;
     height: 1000px;
@@ -167,7 +215,7 @@ body {
     width: 360px;
     height: 420px;
 /*styles*/
-    background: #fff;
+    background-color: #fff;
 }
 
 .card-content{
@@ -200,10 +248,14 @@ body {
     color: #434455;
 }
 
+/*------------------------------------------------------------------------------------------------*/
+/*FOOTER*/
+/*------------------------------------------------------------------------------------------------*/
+
 footer{
     width: 1440px;
     height: 312px;
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .flogo{
