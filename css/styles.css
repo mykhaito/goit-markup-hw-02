@@ -69,11 +69,11 @@ body {
 
 /* SECTION 1 */
 
-.orden-section {
+.service-section {
     background-color: #2e2f42;
 }
 
-.orden-text {
+.service-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -82,7 +82,7 @@ body {
     color: #fff;
 }
 
-.orden-section > .orden-button {
+.service-section > .service-button {
     /*Fles layout */
         /*display: flex;
         align-items: flex-start;*/
@@ -107,7 +107,7 @@ body {
         cursor: pointer;
     }
 
-    .orden-section > .orden-button:hover, .orden-section > .orden-button:focus {
+    .service-section > .service-button:hover, .service-section > .service-button:focus {
         /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
         background-color: #404bbf;
     }
