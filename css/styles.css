@@ -48,7 +48,6 @@ body {
 
 .menu-address ul {
     list-style: none;
-    /*padding: 0;*/
     margin: 0;
 }
 
@@ -83,19 +82,6 @@ body {
 }
 
 .service-section > .service-button {
-    /*Fles layout */
-        /*display: flex;
-        align-items: flex-start;*/
-        justify-content: flex-start;
-        /*flex-direction: row;
-        gap: 10px;*/
-    /*Box model------------------------------------------------->>>>>>>>>
-        border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;*/
-    /*styles*/
-        /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
         background-color: #4d5ae5;
     /*текст кнокпи*/
         font-weight: 500;
@@ -108,7 +94,6 @@ body {
     }
 
     .service-section > .service-button:hover, .service-section > .service-button:focus {
-        /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
         background-color: #404bbf;
     }
 
@@ -130,28 +115,9 @@ body {
     color: #2e2f42;
 }
 
-/*.benefit-section{------------------------------------------------->>>>>>>>>
-    width: 1128px;
-    height: 104px;
-}*/
-
-.benefit-list-section{
-/*Box model------------------------------------------------->>>>>>>>>
-    width: 264px;
-    height: 104px;*/
-/*Flex layout*/
-    /*display: flex;
-    align-items: flex-start;*/
-    justify-content: flex-start;
-    /*flex-direction: column;
-    gap: 8px;*/
-}
-
 /* SECTION 3 */
 
 .team-section{
-  /*  width: 1440px;------------------------------------------------->>>>>>>>>
-    height: 732px;*/
     background-color: #F4F4FD;
 }
 /* SECTION H2 HEADER  */
@@ -166,19 +132,6 @@ body {
 }
 /* -------------------------------------------------------------------------------------------------------- */
 .team-card {
-/*Flex layout*/
-    /*display: flex;
-    align-items: center;*/
-    justify-content: center;
-    /*flex-direction: column;
-    gap: 32px;*/
-/*Box Model------------------------------------------------->>>>>>>>>
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;*/
-/*Styles*/
-    /*box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);*/
     background-color: #fff;
 }
 
@@ -202,40 +155,9 @@ body {
 
 /* SECTION 4 */
 
-/*.portfolio-section{
-    width: 1128px;------------------------------------------------->>>>>>>>>
-    height: 1000px;
-}*/
-
-/*.portfolio-row{------------------------------------------------->>>>>>>>>
-    width: 1128px;
-    height: 420px;
-}*/
-
 .project-card{
-/*Box model------------------------------------------------->>>>>>>>>
-    width: 360px;
-    height: 420px;*/
-/*styles*/
     background-color: #fff;
 }
-
-
-/*.card-content{
-
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        flex-direction: column;
-        gap: 8px;
-
-        border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
-        padding: 32px 16px;
-        width: 360px;
-        height: 120px;
-    }*/
 
 .card-header{
     font-weight: 500;
@@ -257,8 +179,6 @@ body {
 /*------------------------------------------------------------------------------------------------*/
 
 .footer-class{
-    /*width: 1440px;------------------------------------------------->>>>>>>>>
-    height: 312px;*/
     background-color: #2e2f42;
 }
 
@@ -270,13 +190,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /*display: flex;
-    align-items: center;*/
-    justify-content: flex-start;
-    /*flex-direction: row;
-    gap: 0px;*/
-    /*width: 115px;------------------------------------------------->>>>>>>>>
-    height: 24px;*/
 }
 
 .footer-paragraph{
