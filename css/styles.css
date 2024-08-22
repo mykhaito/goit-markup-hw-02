@@ -1,7 +1,7 @@
 /* GLOBAL BODY */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -13,7 +13,7 @@ body {
 /* LOGO */
 
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -153,7 +153,17 @@ body {
     height: 732px;
     background-color: #F4F4FD;
 }
-
+/* SECTION H2 HEADER  */
+.section-h-two-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+/* -------------------------------------------------------------------------------------------------------- */
 .team-card {
 /*Flex layout*/
     display: flex;
@@ -196,15 +206,6 @@ body {
     height: 1000px;
 }
 
-.section-h2-header{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
 .portfolio-row{
     width: 1128px;
     height: 420px;
@@ -218,21 +219,23 @@ body {
     background-color: #fff;
 }
 
-.card-content{
-/*flex layout*/
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
-/*box model*/
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
-    padding: 32px 16px;
-    width: 360px;
-    height: 120px;
-}
+
+/*.card-content{
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+
+        border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        padding: 32px 16px;
+        width: 360px;
+        height: 120px;
+    }*/
+
 .card-header{
     font-weight: 500;
     font-size: 20px;
@@ -252,13 +255,20 @@ body {
 /*FOOTER*/
 /*------------------------------------------------------------------------------------------------*/
 
-footer{
+.footer-class{
     width: 1440px;
     height: 312px;
     background-color: #2e2f42;
 }
 
-.flogo{
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     display: flex;
     align-items: center;
     justify-content: flex-start;
