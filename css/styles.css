@@ -1,4 +1,4 @@
-/* GLOBAL BODY */
+/* GLOBALBODY */
 
 body {
     font-family: "Roboto", sans-serif;
@@ -20,7 +20,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
 }
 
 .logo-span{
@@ -70,11 +69,11 @@ body {
 
 /* SECTION 1 */
 
-.order-section {
+.orden-section {
     background-color: #2e2f42;
 }
 
-.order-text {
+.orden-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -83,7 +82,7 @@ body {
     color: #fff;
 }
 
-.order-section > .order-button {
+.orden-section > .orden-button {
     /*Fles layout */
         /*display: flex;
         align-items: flex-start;*/
@@ -108,7 +107,7 @@ body {
         cursor: pointer;
     }
 
-    .order-section > .order-button:hover, .order-section > .order-button:focus {
+    .orden-section > .orden-button:hover, .orden-section > .orden-button:focus {
         /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
         background-color: #404bbf;
     }
@@ -270,7 +269,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: #4d5ae5;
     /*display: flex;
     align-items: center;*/
